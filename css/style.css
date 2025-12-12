@@ -26,7 +26,7 @@ body{
 }
 
 .brand{display:inline-flex; align-items:center; text-decoration:none}
-.brand-mark{height: 42px; width:auto; display:block}
+.brand-mark{height: 100px; width:auto; display:block}
 
 .site-nav{display:flex; gap: 14px; flex-wrap:wrap}
 .site-nav a{
