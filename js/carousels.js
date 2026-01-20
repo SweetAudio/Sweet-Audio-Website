@@ -5,6 +5,7 @@ function makeCarousel(selector) {
   new Swiper(el, {
     loop: true,
     slidesPerView: "auto",
+    spaceBetween: 20,
     centeredSlides: true,
     grabCursor: true,
    // autoplay: { delay: 2200, disableOnInteraction: false }, //
