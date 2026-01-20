@@ -175,14 +175,22 @@ body{
   gap: 10px;            /* tighter spacing */
 }
 
-#narrative-carousel .swiper-slide{
-  width: 150px;
+/* === Narrative carousel: uniform poster size === */
+
+#narrative-carousel .swiper-slide {
   height: 520px;
+  width: 150px;
+  align-items: stretch;   /* override centering */
 }
 
-#narrative-carousel .tile img{
+#narrative-carousel .tile {
+  width: 100%;
   height: 100%;
-  width: auto;
-  max-width: 100%;
-  object-fit: cover;
+}
+
+#narrative-carousel .tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* forces same visual size */
+  display: block;
 }
