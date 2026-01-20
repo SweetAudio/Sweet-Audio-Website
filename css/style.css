@@ -178,8 +178,8 @@ body{
 /* === Narrative carousel: uniform poster size === */
 
 #narrative-carousel .swiper-slide {
-  height: 520px;
-  width: 150px;
+  height: 475px;
+  width: auto;
   align-items: stretch;   /* override centering */
 }
 
