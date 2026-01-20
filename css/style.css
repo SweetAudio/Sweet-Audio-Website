@@ -219,7 +219,7 @@ body{
 
 /* Fixed slide widths = consistent visual spacing */
 #commercial-carousel .swiper-slide { width: 200px; }
-#narrative-carousel  .swiper-slide { width: 250px; }
+#narrative-carousel  .swiper-slide { width: 175px; }
 
 /* Remove extra gap at the end */
 .swiper-slide:last-child {
@@ -240,7 +240,3 @@ body{
 /* --- ONE spacing system: use flex gap only --- */
 .swiper-wrapper { display: flex; gap: 20px; }
 #narrative-carousel .swiper-wrapper { gap: 10px; }
-
-/* keep slide widths */
-#commercial-carousel .swiper-slide { width: 200px; }
-#narrative-carousel  .swiper-slide { width: 250px; }
