@@ -136,15 +136,6 @@ body{
 #narrative-carousel .swiper-slide { height: 500px;
 width: 175px; }
 
-/* Make images fit that frame */
-#commercial-carousel .tile img, {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  background: transparent;
-}
-
-
 #narrative-carousel .tile img {
   height: 200%;
   width: 100%;
