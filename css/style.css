@@ -194,3 +194,13 @@ body{
   object-fit: cover;     /* forces same visual size */
   display: block;
 }
+
+/* Footer badge/logo: keep it sensible */
+.site-footer .badge img {
+  width: auto;
+  height: auto;
+  max-width: 220px;   /* change this number if you want */
+  max-height: 80px;   /* change this number if you want */
+  display: block;
+  margin: 0 auto;
+}
