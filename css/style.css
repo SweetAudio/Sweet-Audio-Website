@@ -149,6 +149,7 @@ body{
   width: 100%;
   object-fit: contain;
   background: transparent;
+  gap: 5px;
 }
 
 /* === Carousel arrows (clean, never on top of images) === */
