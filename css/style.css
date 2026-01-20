@@ -159,11 +159,12 @@ body{
 
 #commercial-carousel .swiper-slide{
   width: clamp(120px, 18vw, 200px);
-  height: auto;
+  height: clamp(260px, 45vw, 520px); /* shrinks on small screens */
+
 }
 
 #commercial-carousel .tile img{
-  max-height: 200px;
+  max-height: 100%;
   width: auto;
   max-width: 100%;
   object-fit: cover;
@@ -179,18 +180,18 @@ body{
 
 #narrative-carousel .swiper-slide {
   width: clamp(110px, 14vw, 160px);
-  height: 300px;
-  align-items: stretch;   /* override centering */
+   height: clamp(260px, 45vw, 520px); /* shrinks on small screens */
+   align-items: stretch;   /* override centering */
 }
 
 #narrative-carousel .tile {
-  width: 200px;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 #narrative-carousel .tile img {
-  width: 200px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: cover;     /* forces same visual size */
   display: block;
 }
