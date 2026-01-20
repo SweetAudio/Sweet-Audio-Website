@@ -184,12 +184,12 @@ body{
 }
 
 #narrative-carousel .tile {
-  width: auto;
+  width: 200;
   height: auto;
 }
 
 #narrative-carousel .tile img {
-  width: auto;
+  width: 200;
   height: auto;
   object-fit: cover;     /* forces same visual size */
   display: block;
