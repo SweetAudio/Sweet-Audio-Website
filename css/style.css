@@ -246,3 +246,12 @@ width: 175px; }
   background: transparent;
   padding: 0;
 }
+
+/* Narrative: taller posters, not wide cards */
+#narrative-carousel .swiper-slide { height: 520px; }
+#narrative-carousel .tile img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
