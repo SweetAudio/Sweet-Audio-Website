@@ -166,7 +166,7 @@ body{
   max-height: 200px;
   width: auto;
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* ================= Narrative carousel ================= */
