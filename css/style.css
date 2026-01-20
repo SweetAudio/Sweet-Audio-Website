@@ -158,7 +158,7 @@ body{
 /* ================= Commercial carousel ================= */
 
 #commercial-carousel .swiper-slide{
-  width: auto;
+  width: clamp(120px, 18vw, 200px);
   height: auto;
 }
 
@@ -178,8 +178,8 @@ body{
 /* === Narrative carousel: uniform poster size === */
 
 #narrative-carousel .swiper-slide {
-  height: auto;
-  width: auto;
+  width: clamp(110px, 14vw, 160px);
+  height: 300px;
   align-items: stretch;   /* override centering */
 }
 
