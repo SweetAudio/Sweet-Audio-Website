@@ -204,3 +204,14 @@ body{
   display: block;
   margin: 0 auto;
 }
+
+/* Footer/Badge image: keep it sensible */
+.section.badge img{
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 260px;   /* tweak this */
+  max-height: 120px;  /* tweak this */
+  margin: 0 auto;
+  object-fit: contain;
+}
