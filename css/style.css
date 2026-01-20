@@ -158,8 +158,8 @@ body{
 /* ================= Commercial carousel ================= */
 
 #commercial-carousel .swiper-slide{
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
 }
 
 #commercial-carousel .tile img{
@@ -178,19 +178,19 @@ body{
 /* === Narrative carousel: uniform poster size === */
 
 #narrative-carousel .swiper-slide {
-  height: 475px;
+  height: auto;
   width: auto;
   align-items: stretch;   /* override centering */
 }
 
 #narrative-carousel .tile {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 
 #narrative-carousel .tile img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   object-fit: cover;     /* forces same visual size */
   display: block;
 }
