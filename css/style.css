@@ -80,7 +80,7 @@ body{
   height: 100%;
   object-fit: contain;
   background: #fff;
-  padding: 10px;
+  padding: 0px;
 }
 
 .badge{
@@ -128,17 +128,24 @@ body{
 
 /* Narrative carousel: taller logos */
 #narrative-carousel .tile img {
-  max-height: 450px;
+  max-height: 500px;
 }
 
 /* Give each carousel a consistent “frame” height */
 #commercial-carousel .swiper-slide { height: 200px; }
-#narrative-carousel .swiper-slide { height: 450px; }
+#narrative-carousel .swiper-slide { height: 500px; }
 
 /* Make images fit that frame */
-#commercial-carousel .tile img,
-#narrative-carousel .tile img {
+#commercial-carousel .tile img, {
   height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background: transparent;
+}
+
+
+#narrative-carousel .tile img {
+  height: 200%;
   width: 100%;
   object-fit: contain;
   background: transparent;
