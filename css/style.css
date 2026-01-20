@@ -241,3 +241,17 @@ width: 175px; }
 /* --- ONE spacing system: use flex gap only --- */
 .swiper-wrapper { display: flex; gap: 20px; }
 #narrative-carousel .swiper-wrapper { gap: 10px; }
+
+/* Carousels should NOT use the white "tile card" look */
+#commercial-carousel .tile,
+#narrative-carousel .tile {
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+}
+
+#commercial-carousel .tile img,
+#narrative-carousel .tile img {
+  background: transparent;
+  padding: 0;
+}
