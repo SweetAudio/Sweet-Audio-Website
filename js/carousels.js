@@ -4,21 +4,17 @@ function makeCarousel(selector) {
 
   new Swiper(el, {
     loop: true,
-    slidesPerView: 2,
-    spaceBetween: 12,
-    centeredSlides: false,
+    slidesPerView: "auto",
+    centeredSlides: true,
     grabCursor: true,
-    autoplay: { delay: 2200, disableOnInteraction: false },
+   // autoplay: { delay: 2200, disableOnInteraction: false }, //
     pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
-    navigation: {
-      nextEl: el.querySelector(".swiper-button-next"),
-      prevEl: el.querySelector(".swiper-button-prev"),
-    },
-    breakpoints: {
-      640: { slidesPerView: 3 },
-      900: { slidesPerView: 4 },
-      1200: { slidesPerView: 5 },
-    },
+navigation: {
+  nextEl: el.parentElement.querySelector(".swiper-button-next"),
+  prevEl: el.parentElement.querySelector(".swiper-button-prev"),
+},
+pagination: false,
+   
   });
 }
 

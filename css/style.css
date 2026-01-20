@@ -69,7 +69,7 @@ body{
 
 .tile{
   margin:0;
-  border: 1px solid var(--border);
+  border: 0px solid var(--border);
   border-radius: 14px;
   overflow:hidden;
   background: #fff;
@@ -100,7 +100,6 @@ body{
 
 /* === Carousel logo sizing === */
 .tile img {
-  max-height: 200px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -108,6 +107,7 @@ body{
 
 /* === Carousel pagination dots === */
 .swiper-pagination-bullet {
+  display: none;
   background: #ccc;
   opacity: 0;
 }
@@ -115,3 +115,124 @@ body{
 .swiper-pagination-bullet-active {
   background: #000;
 }
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+}
+
+/* Commercial carousel: shorter logos */
+#commercial-carousel .tile img {
+  max-height: 200px;
+}
+
+/* Narrative carousel: taller logos */
+#narrative-carousel .tile img {
+  max-height: 450px;
+}
+
+/* Give each carousel a consistent “frame” height */
+#commercial-carousel .swiper-slide { height: 200px; }
+#narrative-carousel .swiper-slide { height: 450px; }
+
+/* Make images fit that frame */
+#commercial-carousel .tile img,
+#narrative-carousel .tile img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background: transparent;
+}
+
+/* === Carousel arrows (clean, never on top of images) === */
+.swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 44px;
+  height: 44px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-prev { left: 18px; }
+.swiper-button-next { right: 18px; }
+
+@media (max-width: 768px) {
+  .swiper-button-prev { left: 10px; }
+  .swiper-button-next { right: 10px; }
+}
+
+.swiper-wrapper {
+  box-sizing: border-box;
+}
+
+.carousel { position: relative; }
+.carousel .swiper-button-prev { left: 10px; }
+.carousel .swiper-button-next { right: 10px; }
+
+/* Fade the carousel edges so slides don't show under the arrows */
+.swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* the fade “curtains” */
+.swiper::before,
+.swiper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 90px;              /* adjust if needed */
+  pointer-events: none;
+  z-index: 5;               /* sits above slides, below arrows */
+}
+
+.swiper::before {
+  left: 0;
+  background: linear-gradient(to right, #fff 70%, rgba(255,255,255,0));
+}
+
+.swiper::after {
+  right: 0;
+  background: linear-gradient(to left, #fff 70%, rgba(255,255,255,0));
+}
+
+/* keep arrows above the fades */
+.swiper-button-prev,
+.swiper-button-next {
+  z-index: 10;
+}
+
+/* Fixed slide widths = consistent visual spacing */
+#commercial-carousel .swiper-slide { width: 200px; }
+#narrative-carousel  .swiper-slide { width: 250px; }
+
+/* Remove extra gap at the end */
+.swiper-slide:last-child {
+  margin-right: 0;
+}
+
+/* Real spacing between slides */
+.swiper-wrapper {
+  display: flex;
+  gap: 20px; /* global default */
+}
+
+/* Override per carousel */
+#narrative-carousel .swiper-wrapper {
+  gap: 10px;
+}
+
+/* --- ONE spacing system: use flex gap only --- */
+.swiper-wrapper { display: flex; gap: 20px; }
+#narrative-carousel .swiper-wrapper { gap: 10px; }
+
+/* keep slide widths */
+#commercial-carousel .swiper-slide { width: 200px; }
+#narrative-carousel  .swiper-slide { width: 250px; }
