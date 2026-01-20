@@ -8,7 +8,7 @@ function makeCarousel(selector) {
     spaceBetween: 20,
     centeredSlides: true,
     grabCursor: true,
-   // autoplay: { delay: 2200, disableOnInteraction: false }, //
+    autoplay: { delay: 2200, disableOnInteraction: true },
     pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
 navigation: {
   nextEl: el.parentElement.querySelector(".swiper-button-next"),
