@@ -197,13 +197,19 @@ body{
 }
 
 /* Footer badge/logo: keep it sensible */
-.site-footer .badge img {
+.badge{
+  display:flex;
+  justify-content:center;
+  padding-top: 6px;
+}
+.badge img{
   width: auto;
   height: auto;
-  max-width: 220px;   /* change this number if you want */
-  max-height: 80px;   /* change this number if you want */
-  display: block;
+  max-width: 220px;
+  max-height: 80px;
+  display:block;
   margin: 0 auto;
+  opacity: .95;
 }
 
 .site-notice{
