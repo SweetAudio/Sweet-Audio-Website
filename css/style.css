@@ -205,3 +205,15 @@ body{
   display: block;
   margin: 0 auto;
 }
+
+.site-notice{
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 12px;
+  letter-spacing: .02em;
+}
