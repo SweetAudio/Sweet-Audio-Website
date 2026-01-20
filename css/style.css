@@ -133,7 +133,8 @@ body{
 
 /* Give each carousel a consistent “frame” height */
 #commercial-carousel .swiper-slide { height: 200px; }
-#narrative-carousel .swiper-slide { height: 500px; }
+#narrative-carousel .swiper-slide { height: 500px;
+width: 175px; }
 
 /* Make images fit that frame */
 #commercial-carousel .tile img, {
