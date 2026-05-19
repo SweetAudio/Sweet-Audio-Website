@@ -6,7 +6,7 @@ function getYoutubeThumbnail(url){
 
   const id = url.split("youtu.be/")[1].split("?")[0];
 
-  return `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
+  return `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
 }
 
 if(url.includes("youtube.com/watch?v=")){
