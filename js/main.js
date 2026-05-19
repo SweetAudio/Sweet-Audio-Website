@@ -35,8 +35,7 @@ projects.forEach(project => {
        href="${project.link}"
        target="_blank">
 
-      <img
-  src="${image.max}"
+      src="${typeof image === 'string' ? image : image.max}"
   onerror="this.onerror=null; this.src='${image.hq}'"
 >
 
