@@ -239,7 +239,7 @@ nav{
   filter:
     grayscale(10%)
     brightness(95%)
-    drop-shadow(0 0 8px rgba(255,255,255,.7));;
+    drop-shadow(0 0 1px rgba(255,255,255,.6));;
 
   transition:0.5s;
 }
