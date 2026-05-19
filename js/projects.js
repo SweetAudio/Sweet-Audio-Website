@@ -5,7 +5,7 @@ const projects = [
   category: "Commercial",
   role: "Production Sound",
   link: "https://www.instagram.com/p/DXyiJbMjai7/",
-  image: "images/projects/groovy.jpg"
+  image: "images/projects/groovy.webp"
 },
 
 {
