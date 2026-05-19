@@ -8,13 +8,11 @@ projects.forEach(project => {
        href="${project.link}"
        target="_blank">
 
-      <img src="${project.image}">
+      <div class="project-fallback">
 
-      <div class="project-overlay">
+        <span>${project.category}</span>
 
         <h3>${project.title}</h3>
-
-        <p>${project.category}</p>
 
       </div>
 
