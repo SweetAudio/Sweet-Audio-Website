@@ -2,30 +2,27 @@ const grid = document.getElementById("projects-grid");
 
 function getYoutubeThumbnail(url){
 
-  try{
+  let id = null;
 
-    if(url.includes("youtu.be/")){
+  if(url.includes("youtu.be/")){
 
-      const id = url.split("youtu.be/")[1].split("?")[0];
-
-      return `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
-    }
-
-    if(url.includes("youtube.com/watch?v=")){
-
-      const id = url.split("v=")[1].split("&")[0];
-
-      return `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
-    }
-
+    id = url.split("youtu.be/")[1].split("?")[0];
   }
 
-  catch{
+  if(url.includes("youtube.com/watch?v=")){
+
+    id = url.split("v=")[1].split("&")[0];
+  }
+
+  if(!id){
 
     return "images/bts/default.jpg";
   }
 
-  return "images/bts/default.jpg";
+  return {
+    max: `https://img.youtube.com/vi/${id}/maxresdefault.jpg`,
+    hq: `https://img.youtube.com/vi/${id}/hqdefault.jpg`
+  };
 }
 
 projects.forEach(project => {
