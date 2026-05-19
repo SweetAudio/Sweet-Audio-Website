@@ -238,7 +238,8 @@ nav{
 
   filter:
     grayscale(10%)
-    brightness(95%);
+    brightness(95%)
+    drop-shadow(0 0 8px rgba(255,255,255,.06));;
 
   transition:0.5s;
 }
