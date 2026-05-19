@@ -224,7 +224,7 @@ nav{
 
   width:max-content;
 
-  animation:scroll 45s linear infinite;
+  animation:scroll 70s linear infinite;
 }
 
 .logo-track img{
@@ -240,7 +240,7 @@ nav{
     grayscale(10%)
     brightness(95%);
 
-  transition:2s;
+  transition:0.5s;
 }
 
 .logo-track img:hover{
