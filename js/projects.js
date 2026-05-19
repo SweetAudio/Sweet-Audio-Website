@@ -43,6 +43,27 @@ const projects = [
 },
 
 {
+  title: "Arndale — Sophia",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/Y2VHyt2uvQM"
+},
+
+{
+  title: "Arndale — Johnny",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/yMF3jil7kcM"
+},
+
+{
+  title: "Arndale — Marcel",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/X9U6DlWOJBY"
+}
+
+{
   title: "Class",
   category: "Narrative",
   role: "Production Sound",
@@ -64,38 +85,11 @@ const projects = [
 },
 
 {
-  title: "Students",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/sLRxaMmbYMQ"
-},
-
-{
-  title: "Arndale — Sophia",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/Y2VHyt2uvQM"
-},
-
-{
   title: "Arndale — Jamie",
   category: "Commercial",
   role: "Production Sound",
   link: "https://youtu.be/1tHXLaZbo1k"
 },
 
-{
-  title: "Arndale — Johnny",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/yMF3jil7kcM"
-},
-
-{
-  title: "Arndale — Marcel",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/X9U6DlWOJBY"
-}
-
 ];
+
