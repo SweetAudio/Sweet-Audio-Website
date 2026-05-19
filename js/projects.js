@@ -1,6 +1,14 @@
 const projects = [
 
 {
+  title: "Keep It Groovy",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://www.instagram.com/p/DXyiJbMjai7/",
+  image: "images/projects/groovy.jpg"
+},
+
+{
   title: "ASICS",
   category: "Commercial",
   role: "Location Sound + Audio Post Production",
@@ -40,6 +48,13 @@ const projects = [
   category: "Commercial",
   role: "Production Sound",
   link: "https://youtu.be/Y2VHyt2uvQM"
+},
+
+{
+  title: "Divided We Stand",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://www.youtube.com/watch?v=fVPMXCj6d7M"
 },
 
 /*
