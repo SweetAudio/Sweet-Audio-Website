@@ -389,3 +389,25 @@ nav{
     border-radius: 12px;
     overflow: hidden;
 }
+
+.project-card{
+  position:relative;
+
+  overflow:hidden;
+
+  background:#111927;
+
+  opacity:0;
+  transform:translateY(40px);
+
+  animation:projectFade .8s ease forwards;
+}
+
+@keyframes projectFade{
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}

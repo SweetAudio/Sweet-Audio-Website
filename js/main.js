@@ -25,13 +25,14 @@ function getYoutubeThumbnail(url){
   };
 }
 
-projects.forEach(project => {
+projects.forEach((project,index) => {
 
   const image = project.image || getYoutubeThumbnail(project.link);
 
   grid.innerHTML += `
 
     <a class="project-card"
+   style="animation-delay:${index * 0.08}s"
        href="${project.link}"
        target="_blank">
 
