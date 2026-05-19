@@ -1,6 +1,20 @@
 const grid = document.getElementById("projects-grid");
 
+function getYoutubeThumbnail(url){
+
+  if(url.includes("youtu.be/")){
+
+    const id = url.split("youtu.be/")[1].split("?")[0];
+
+    return `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
+  }
+
+  return "images/bts/hero.jpg";
+}
+
 projects.forEach(project => {
+
+  const image = getYoutubeThumbnail(project.link);
 
   grid.innerHTML += `
 
@@ -8,9 +22,11 @@ projects.forEach(project => {
        href="${project.link}"
        target="_blank">
 
-      <div class="project-fallback">
+      <img src="${image}">
 
-        <span>${project.category}</span>
+      <div class="project-overlay">
+
+        <p>${project.category}</p>
 
         <h3>${project.title}</h3>
 
