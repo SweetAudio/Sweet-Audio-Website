@@ -63,6 +63,8 @@ const projects = [
   link: "https://youtu.be/X9U6DlWOJBY"
 },
 
+/*
+
 {
   title: "Class",
   category: "Narrative",
@@ -90,6 +92,8 @@ const projects = [
   role: "Production Sound",
   link: "https://youtu.be/1tHXLaZbo1k"
 },
+
+*/
 
 ];
 
