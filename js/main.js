@@ -16,12 +16,12 @@ function getYoutubeThumbnail(url){
 
   if(!id){
 
-    return "images/bts/default.jpg";
+    return "images/bts/default.webp";
   }
 
   return {
-    max: `https://img.youtube.com/vi/${id}/maxresdefault.jpg`,
-    hq: `https://img.youtube.com/vi/${id}/hqdefault.jpg`
+    max: `https://img.youtube.com/vi/${id}/maxresdefault.webp`,
+    hq: `https://img.youtube.com/vi/${id}/hqdefault.webp`
   };
 }
 
