@@ -228,19 +228,19 @@ nav{
 }
 
 .logo-track img{
-  height:54px;
+  height:68px;
 
   width:auto;
 
   object-fit:contain;
 
-  opacity:.9;
+  opacity:.85;
 
   filter:
-    grayscale(100%)
-    brightness(140%);
+    grayscale(10%)
+    brightness(100%);
 
-  transition:.4s;
+  transition:.6s;
 }
 
 .logo-track img:hover{
