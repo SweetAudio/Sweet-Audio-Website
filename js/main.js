@@ -4,10 +4,17 @@ function getYoutubeThumbnail(url){
 
   if(url.includes("youtu.be/")){
 
-    const id = url.split("youtu.be/")[1].split("?")[0];
+  const id = url.split("youtu.be/")[1].split("?")[0];
 
-    return `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
-  }
+  return `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
+}
+
+if(url.includes("youtube.com/watch?v=")){
+
+  const id = url.split("v=")[1].split("&")[0];
+
+  return `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
+}
 
   return "images/bts/hero.jpg";
 }
