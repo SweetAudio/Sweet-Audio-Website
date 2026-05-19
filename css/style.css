@@ -218,17 +218,39 @@ nav{
 
 .logo-track{
   display:flex;
-  gap:120px;
+  align-items:center;
 
-  animation:scroll 25s linear infinite;
+  gap:90px;
+
+  width:max-content;
+
+  animation:scroll 45s linear infinite;
 }
 
 .logo-track img{
-  height:40px;
+  height:54px;
 
-  opacity:.6;
+  width:auto;
 
-  filter:grayscale(100%);
+  object-fit:contain;
+
+  opacity:.9;
+
+  filter:
+    grayscale(100%)
+    brightness(140%);
+
+  transition:.4s;
+}
+
+.logo-track img:hover{
+  opacity:1;
+
+  transform:scale(1.05);
+
+  filter:
+    grayscale(0%)
+    brightness(100%);
 }
 
 @keyframes scroll{
