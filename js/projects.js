@@ -1,27 +1,115 @@
 const projects = [
 
 {
+  title: "ASICS",
+  category: "Commercial",
+  role: "Location Sound + Audio Post Production",
+  link: "https://www.youtube.com/watch?v=m-Pt_Zt9tZk"
+},
+
+{
+  title: "KCOM",
+  category: "Commercial",
+  role: "Audio Post Production / Sound Design",
+  link: "https://www.youtube.com/watch?v=3q0JmzEhFOU"
+},
+
+{
   title: "Manchester United × Remington",
   category: "Commercial",
+  role: "Production Sound",
   link: "https://youtu.be/xcVZ71T0Y4E"
 },
 
 {
-  title: "MUFC × Maui Jim",
+  title: "Concrete Feathers",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/CKzy655WCZE"
+},
+
+{
+  title: "Enter Nirvana",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/x7lMfMdIfG0"
+},
+
+{
+  title: "Her Last Day",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/x1gkJUYsblw"
+},
+
+{
+  title: "Sophie",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/PJFGIDQrYOs"
+},
+
+{
+  title: "A Scottish Tale",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/jIH2iViYNxs"
+},
+
+{
+  title: "Class",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/xltCCweO8_4"
+},
+
+{
+  title: "IDLYA",
+  category: "Music Video",
+  role: "Production Sound",
+  link: "https://youtu.be/Vo9JlehMP-s"
+},
+
+{
+  title: "Ecodan",
   category: "Commercial",
-  link: "https://fb.watch/b2mAbtllFD/"
+  role: "Production Sound",
+  link: "https://youtu.be/lZoLBkMn0iQ"
 },
 
 {
-  title: "Amazon Prime Production",
-  category: "Feature",
-  link: "https://www.amazon.co.uk/gp/video/detail/B0DM73426Q/"
+  title: "Students",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/sLRxaMmbYMQ"
 },
 
 {
-  title: "ITV — This Morning",
-  category: "Broadcast",
-  link: "https://www.itv.com/thismorning/articles/the-speakmans-investigate-the-countrys-most-common-superstitions"
+  title: "Arndale — Sophia",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/Y2VHyt2uvQM"
+},
+
+{
+  title: "Arndale — Jamie",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/1tHXLaZbo1k"
+},
+
+{
+  title: "Arndale — Johnny",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/yMF3jil7kcM"
+},
+
+{
+  title: "Arndale — Marcel",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/X9U6DlWOJBY"
 }
 
 ];

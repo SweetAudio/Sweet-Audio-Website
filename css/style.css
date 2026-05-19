@@ -339,3 +339,15 @@ nav{
 
   font-family:'Cormorant Garamond',serif;
 }
+
+.project-overlay span{
+
+  margin-top:12px;
+
+  opacity:.65;
+
+  font-size:14px;
+
+  line-height:1.5;
+
+}

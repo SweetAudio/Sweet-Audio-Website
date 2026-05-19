@@ -28,6 +28,8 @@ projects.forEach(project => {
 
         <p>${project.category}</p>
 
+        <span>${project.role}</span>
+
         <h3>${project.title}</h3>
 
       </div>
