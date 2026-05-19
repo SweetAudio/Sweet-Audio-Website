@@ -24,4 +24,4 @@ const projects = [
   link: "https://www.itv.com/thismorning/articles/the-speakmans-investigate-the-countrys-most-common-superstitions"
 }
 
-]
+];
