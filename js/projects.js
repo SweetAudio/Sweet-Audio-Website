@@ -22,24 +22,10 @@ const projects = [
 },
 
 {
-  title: "Concrete Feathers",
-  category: "Narrative",
-  role: "Production Sound",
-  link: "https://youtu.be/CKzy655WCZE"
-},
-
-{
   title: "Enter Nirvana",
   category: "Narrative",
   role: "Production Sound",
   link: "https://youtu.be/x7lMfMdIfG0"
-},
-
-{
-  title: "Her Last Day",
-  category: "Narrative",
-  role: "Production Sound",
-  link: "https://youtu.be/x1gkJUYsblw"
 },
 
 {
