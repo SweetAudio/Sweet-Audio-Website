@@ -27,7 +27,7 @@ function getYoutubeThumbnail(url){
 
 projects.forEach(project => {
 
-  const image = getYoutubeThumbnail(project.link);
+  const image = project.image || getYoutubeThumbnail(project.link);
 
   grid.innerHTML += `
 
