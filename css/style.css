@@ -33,8 +33,10 @@ a{
   background-position:center;
 
   transform:scale(1.03);
+  
+  will-change: transform;
 
-  animation:slowZoom 18s ease-in-out infinite alternate;
+  animation:slowZoom 30s linear infinite alternate;
 }
 
 @keyframes slowZoom{
@@ -43,7 +45,7 @@ a{
   }
 
   to{
-    transform:scale(1.08);
+    transform:scale(1.05);
   }
 }
 
