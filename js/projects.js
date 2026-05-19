@@ -61,7 +61,7 @@ const projects = [
   category: "Commercial",
   role: "Production Sound",
   link: "https://youtu.be/X9U6DlWOJBY"
-}
+},
 
 {
   title: "Class",
