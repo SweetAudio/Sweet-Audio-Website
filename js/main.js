@@ -20,8 +20,8 @@ function getYoutubeThumbnail(url){
   }
 
   return {
-    max: `https://img.youtube.com/vi/${id}/maxresdefault.webp`,
-    hq: `https://img.youtube.com/vi/${id}/hqdefault.webp`
+    max: `https://img.youtube.com/vi/${id}/maxresdefault.jpg`,
+    hq: `https://img.youtube.com/vi/${id}/hqdefault.jpg`
   };
 }
 
