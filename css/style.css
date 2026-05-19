@@ -210,7 +210,7 @@ nav{
 .logo-strip{
   overflow:hidden;
 
-  padding:80px 0;
+  padding:50px 0;
 
   border-top:1px solid rgba(255,255,255,.06);
   border-bottom:1px solid rgba(255,255,255,.06);
@@ -220,7 +220,7 @@ nav{
   display:flex;
   align-items:center;
 
-  gap:90px;
+  gap:60px;
 
   width:max-content;
 
@@ -228,7 +228,7 @@ nav{
 }
 
 .logo-track img{
-  height:88px;
+  height:100px;
 
   width:auto;
 
