@@ -351,3 +351,25 @@ nav{
   line-height:1.5;
 
 }
+
+.instagram-section{
+    padding: 120px 5vw;
+}
+
+.instagram-section h2{
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.instagram-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 40px;
+}
+
+.instagram-media{
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+}

@@ -36,31 +36,10 @@ const projects = [
 },
 
 {
-  title: "A Scottish Tale",
-  category: "Narrative",
-  role: "Production Sound",
-  link: "https://youtu.be/jIH2iViYNxs"
-},
-
-{
   title: "Arndale — Sophia",
   category: "Commercial",
   role: "Production Sound",
   link: "https://youtu.be/Y2VHyt2uvQM"
-},
-
-{
-  title: "Arndale — Johnny",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/yMF3jil7kcM"
-},
-
-{
-  title: "Arndale — Marcel",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/X9U6DlWOJBY"
 },
 
 /*
@@ -91,6 +70,27 @@ const projects = [
   category: "Commercial",
   role: "Production Sound",
   link: "https://youtu.be/1tHXLaZbo1k"
+},
+
+{
+  title: "A Scottish Tale",
+  category: "Narrative",
+  role: "Production Sound",
+  link: "https://youtu.be/jIH2iViYNxs"
+},
+
+{
+  title: "Arndale — Johnny",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/yMF3jil7kcM"
+},
+
+{
+  title: "Arndale — Marcel",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/X9U6DlWOJBY"
 },
 
 */
