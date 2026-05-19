@@ -35,9 +35,9 @@ projects.forEach(project => {
        href="${project.link}"
        target="_blank">
 
-      <img 
-  src="${image}"
-  onerror="this.src='images/bts/default.jpg'"
+      <img
+  src="${image.max}"
+  onerror="this.onerror=null; this.src='${image.hq}'"
 >
 
       <div class="project-overlay">
