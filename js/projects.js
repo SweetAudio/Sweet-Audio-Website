@@ -1,11 +1,19 @@
 const projects = [
 
 {
-  title: "Keep It Groovy",
+  title: "Strongbow - Refreshing The Nation",
   category: "Commercial",
   role: "Production Sound",
-  link: "https://www.instagram.com/p/DXyiJbMjai7/",
+  link: "https://www.instagram.com/p/DYXPLAOICwk/",
   image: "images/projects/groovy.webp"
+},
+
+{
+  title: "Just Eat x Foodcycle",
+  category: "Social Doc",
+  role: "Production Sound",
+  link: "https://www.instagram.com/p/DXceeqnDNT8/",
+  image: "images/projects/justeat.webp"
 },
 
 {
