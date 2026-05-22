@@ -218,7 +218,6 @@ nav{
   border-bottom:1px solid rgba(255,255,255,.06);
 }
 
-/*
 
 .logo-track{
   display:flex;
@@ -227,11 +226,15 @@ nav{
   gap:55px;
 
   width:max-content;
+  cursor:grab;
+  user-select:none;
 
-  animation:scroll 90s linear infinite;
+  will-change:transform;
 }
 
-*/
+.logo-track:active{
+  cursor:grabbing;
+}
 
 .logo-track img{
   height:70px;
@@ -257,16 +260,6 @@ nav{
   filter:
     grayscale(0%)
     brightness(100%);
-}
-
-@keyframes scroll{
-  from{
-    transform:translateX(0);
-  }
-
-  to{
-    transform:translateX(-50%);
-  }
 }
 
 .about-preview{
