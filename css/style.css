@@ -222,17 +222,17 @@ nav{
   display:flex;
   align-items:center;
 
-  gap:60px;
+  gap:28px;
 
   width:max-content;
 
-  animation:scroll 70s linear infinite;
+  animation:scroll 90s linear infinite;
 }
 
 .logo-track img{
-  height:100px;
+  height:48px;
 
-  width:max-content;
+  width:auto;
 
   object-fit:contain;
 
