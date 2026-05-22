@@ -232,7 +232,7 @@ nav{
 .logo-track img{
   height:100px;
 
-  width:auto;
+  width:max-content;
 
   object-fit:contain;
 
@@ -261,7 +261,7 @@ nav{
   }
 
   to{
-    transform:translateX(-50%);
+    transform:translateX(calc(-50% - 45px));
   }
 }
 
