@@ -222,7 +222,7 @@ nav{
   display:flex;
   align-items:center;
 
-  gap:28px;
+  gap:60px;
 
   width:max-content;
 
@@ -230,7 +230,7 @@ nav{
 }
 
 .logo-track img{
-  height:48px;
+  height:100px;
 
   width:auto;
 
