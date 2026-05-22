@@ -218,6 +218,8 @@ nav{
   border-bottom:1px solid rgba(255,255,255,.06);
 }
 
+/*
+
 .logo-track{
   display:flex;
   align-items:center;
@@ -228,6 +230,8 @@ nav{
 
   animation:scroll 90s linear infinite;
 }
+
+*/
 
 .logo-track img{
   height:70px;
