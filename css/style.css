@@ -240,7 +240,7 @@ nav{
 
   filter:
     grayscale(10%)
-    brightness(95%)
+    brightness(95%);
 
   transition:0.5s;
 }
