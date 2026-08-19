@@ -263,12 +263,11 @@ nav{
     brightness(100%);
 }
 
-.about-preview{
-  display:grid;
-
-  grid-template-columns:1fr 1fr;
-
-  min-height:700px;
+.about-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 700px;
+  margin: 0 50px;
 }
 
 .about-image img{
