@@ -210,7 +210,8 @@ nav{
 .logo-strip{
   overflow:hidden;
 
-  padding:50px 0;
+  padding:35px 0;
+  margin-bottom:35px;
   
   background:rgba(255,255,255,.05);
 
