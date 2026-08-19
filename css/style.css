@@ -437,6 +437,7 @@ nav{
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
   min-height: 80vh;
+  margin: 0 50px;
 }
 
 .about-story {
