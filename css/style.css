@@ -508,14 +508,14 @@ nav{
 }
 
 .about-services {
-  padding: 120px 60px;
+  padding: 60px 60px;
 }
 
 .about-services-heading {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .about-services-heading p {
