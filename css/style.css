@@ -433,3 +433,26 @@ nav{
   }
 
 }
+
+.about-intro {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  min-height: 80vh;
+}
+
+.about-intro-image {
+  overflow: hidden;
+}
+
+.about-intro-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-intro-text {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
