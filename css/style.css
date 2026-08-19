@@ -267,7 +267,7 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 700px;
-  margin: 0 50px;
+  margin: 0 100px;
 }
 
 .about-image img{
