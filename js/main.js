@@ -61,16 +61,6 @@ onerror="this.onerror=null; this.src='${typeof image === 'string' ? image : imag
 
 });
 
-projects.forEach((project,index) => {
-
-  ...
-
-});
-
-
-
-
-
 const track = document.getElementById("logoTrack");
 
 let position = 0;
