@@ -456,3 +456,18 @@ nav{
   flex-direction: column;
   justify-content: center;
 }
+
+.about-intro-text {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-intro-text h1 {
+  font-family:'Cormorant Garamond',serif;
+  font-size:72px;
+  line-height:.95;
+  font-weight:400;
+  margin:20px 0 30px;
+}
