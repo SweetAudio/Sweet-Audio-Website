@@ -19,14 +19,14 @@ const projects = [
 {
   title: "ASICS",
   category: "Commercial",
-  role: "Location Sound + Audio Post Production",
+  role: "Production Sound + Audio Post",
   link: "https://www.youtube.com/watch?v=m-Pt_Zt9tZk"
 },
 
 {
   title: "KCOM",
   category: "Commercial",
-  role: "Audio Post Production / Sound Design",
+  role: "Audio Post + Sound Design",
   link: "https://www.youtube.com/watch?v=3q0JmzEhFOU"
 },
 
