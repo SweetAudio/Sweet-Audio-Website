@@ -211,24 +211,33 @@ nav{
   overflow:hidden;
 
   padding:50px 0;
+  
+  background:rgba(255,255,255,.05);
 
   border-top:1px solid rgba(255,255,255,.06);
   border-bottom:1px solid rgba(255,255,255,.06);
 }
 
+
 .logo-track{
   display:flex;
   align-items:center;
 
-  gap:60px;
+  gap:55px;
 
   width:max-content;
+  cursor:grab;
+  user-select:none;
 
-  animation:scroll 70s linear infinite;
+  will-change:transform;
+}
+
+.logo-track:active{
+  cursor:grabbing;
 }
 
 .logo-track img{
-  height:100px;
+  height:70px;
 
   width:auto;
 
@@ -238,8 +247,7 @@ nav{
 
   filter:
     grayscale(10%)
-    brightness(95%)
-    drop-shadow(0 0 1px rgba(255,255,255,.4));;
+    brightness(95%);
 
   transition:0.5s;
 }
@@ -252,16 +260,6 @@ nav{
   filter:
     grayscale(0%)
     brightness(100%);
-}
-
-@keyframes scroll{
-  from{
-    transform:translateX(0);
-  }
-
-  to{
-    transform:translateX(-50%);
-  }
 }
 
 .about-preview{

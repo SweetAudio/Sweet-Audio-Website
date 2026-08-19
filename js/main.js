@@ -60,3 +60,85 @@ onerror="this.onerror=null; this.src='${typeof image === 'string' ? image : imag
   `;
 
 });
+
+projects.forEach((project,index) => {
+
+  ...
+
+});
+
+
+
+
+
+const track = document.getElementById("logoTrack");
+
+let position = 0;
+let velocity = -0.4;
+
+let isDragging = false;
+let startX = 0;
+let currentX = 0;
+
+let pauseTimeout;
+
+function animate(){
+
+  if(!isDragging){
+    position += velocity;
+  }
+
+  const halfWidth = track.scrollWidth / 2;
+
+  if(position <= -halfWidth){
+    position = 0;
+  }
+
+  if(position >= 0){
+    position = -halfWidth;
+  }
+
+  track.style.transform = `translateX(${position}px)`;
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+
+function pauseAutoScroll(){
+
+  velocity = 0;
+
+  clearTimeout(pauseTimeout);
+
+  pauseTimeout = setTimeout(() => {
+    velocity = -0.4;
+  }, 1000);
+}
+
+track.addEventListener("mousedown", e => {
+
+  isDragging = true;
+
+  startX = e.clientX - currentX;
+
+  pauseAutoScroll();
+});
+
+window.addEventListener("mousemove", e => {
+
+  if(!isDragging) return;
+
+  currentX = e.clientX - startX;
+
+  position += e.movementX;
+});
+
+window.addEventListener("mouseup", e => {
+
+  isDragging = false;
+
+  velocity = e.movementX * 0.15;
+
+  pauseAutoScroll();
+});
