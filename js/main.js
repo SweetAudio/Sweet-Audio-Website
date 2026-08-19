@@ -99,6 +99,8 @@ function animate(){
 
 animate();
 
+console.log("Logo carousel running");
+
 function pauseAutoScroll(){
 
   velocity = 0;
