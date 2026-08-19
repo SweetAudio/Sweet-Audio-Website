@@ -440,6 +440,41 @@ nav{
   min-height: 80vh;
 }
 
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 160px 60px;
+  min-height: 600px;
+}
+
+.about-story-heading p {
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: .6;
+  margin-bottom: 30px;
+}
+
+.about-story-heading h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 64px;
+  line-height: .95;
+  font-weight: 400;
+  margin: 0;
+}
+
+.about-story-text {
+  align-self: center;
+  max-width: 560px;
+}
+
+.about-story-text p {
+  font-size: 20px;
+  line-height: 1.7;
+  opacity: .8;
+  margin-bottom: 30px;
+}
+
 .about-intro-image {
   overflow: hidden;
 }
