@@ -25,7 +25,11 @@ function getYoutubeThumbnail(url){
   };
 }
 
-projects.forEach((project,index) => {
+const isHomePage = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
+
+const projectsToShow = isHomePage ? projects.slice(0, 4) : projects;
+
+projectsToShow.forEach((project,index) => {
 
   const image = project.image || getYoutubeThumbnail(project.link);
 
