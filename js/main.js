@@ -63,6 +63,10 @@ onerror="this.onerror=null; this.src='${typeof image === 'string' ? image : imag
 
 const track = document.getElementById("logoTrack");
 
+if (!track) {
+  // No logo carousel on this page
+} else {
+
 let position = 0;
 let velocity = -0.4;
 
@@ -132,3 +136,5 @@ window.addEventListener("mouseup", e => {
 
   pauseAutoScroll();
 });
+
+}
