@@ -596,7 +596,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 50px;
+  padding: 40px 50px 120px;
 }
 
 .contact-content {
@@ -635,7 +635,7 @@ nav{
 }
 
 .contact-link img {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
