@@ -648,15 +648,15 @@ nav{
 
 .about-preview-links {
   display: flex;
-  gap: 45px;
+  gap: 40px;
   margin-top: 45px;
 }
 
 .about-preview-links a {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
-  opacity: .7;
+  font-size: 17px;
+  opacity: .75;
   transition: opacity .3s ease;
 }
 
