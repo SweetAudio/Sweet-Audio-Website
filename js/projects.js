@@ -46,32 +46,10 @@ const projects = [
 },
 
 {
-  title: "Mitsubishi Ecodan",
-  category: "Corporate",
-  role: "Production Sound",
-  link: "https://youtu.be/lZoLBkMn0iQ",
-  image: "images/projects/ecodan.webp"
-},
-
-{
   title: "Enter Nirvana",
   category: "Narrative",
   role: "Production Sound",
   link: "https://youtu.be/x7lMfMdIfG0"
-},
-
-{
-  title: "Sophie",
-  category: "Narrative",
-  role: "Production Sound",
-  link: "https://youtu.be/PJFGIDQrYOs"
-},
-
-{
-  title: "Arndale — Sophia",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/Y2VHyt2uvQM"
 },
 
 {
