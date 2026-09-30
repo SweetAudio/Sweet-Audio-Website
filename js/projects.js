@@ -42,6 +42,7 @@ const projects = [
   category: "Commercial",
   role: "Production Sound",
   link: "https://youtu.be/lZoLBkMn0iQ"
+  image: "images/projects/ecodan.webp",
 },
 
 {
