@@ -38,6 +38,13 @@ const projects = [
 },
 
 {
+  title: "Ecodan",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://youtu.be/lZoLBkMn0iQ"
+},
+
+{
   title: "Enter Nirvana",
   category: "Narrative",
   role: "Production Sound",
@@ -79,13 +86,6 @@ const projects = [
   category: "Music Video",
   role: "Production Sound",
   link: "https://youtu.be/Vo9JlehMP-s"
-},
-
-{
-  title: "Ecodan",
-  category: "Commercial",
-  role: "Production Sound",
-  link: "https://youtu.be/lZoLBkMn0iQ"
 },
 
 {
