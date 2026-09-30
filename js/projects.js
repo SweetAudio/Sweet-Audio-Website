@@ -1,6 +1,14 @@
 const projects = [
 
 {
+  title: "Man City & Puma - Kit Launch",
+  category: "Commercial",
+  role: "Production Sound",
+  link: "https://www.instagram.com/p/DYhPd0cje6m/",
+  image: "images/projects/puma.webp"
+},
+
+{
   title: "Strongbow - Refreshing The Nation",
   category: "Commercial",
   role: "Production Sound",
