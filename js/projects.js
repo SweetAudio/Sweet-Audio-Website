@@ -38,8 +38,8 @@ const projects = [
 },
 
 {
-  title: "Ecodan",
-  category: "Commercial",
+  title: "Mitsubishi Ecodan",
+  category: "Corporate",
   role: "Production Sound",
   link: "https://youtu.be/lZoLBkMn0iQ"
   image: "images/projects/ecodan.webp",
